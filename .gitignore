@@ -1,0 +1,21 @@
+# Build artifacts (CMOC object files and built executables)
+*.o
+coco/forth09
+unix/forth09
+
+# MAME test-run snapshot artifacts (produced by ad-hoc test scripts; not part
+# of the project)
+coco/snap/
+
+# Stray/empty artifacts picked up during development
+default.profraw
+coco/HelloEmbedded.swift
+
+# Legacy pre-CMOC build artifacts (predate the current coco/unix Makefile
+# structure; kept on disk for reference but not tracked)
+dict.com
+main.com
+CMDS/
+
+# OS files
+.DS_Store
